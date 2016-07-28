@@ -1,0 +1,4341 @@
+(vim.host.Summary) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   host = 'vim.HostSystem:host-9',
+   hardware = (vim.host.Summary.HardwareSummary) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      vendor = 'Dell Inc.',
+      model = 'PowerEdge R710',
+      uuid = '4c4c4544-0034-5410-804b-b3c04f363253',
+      otherIdentifyingInfo = (vim.host.SystemIdentificationInfo) [
+         (vim.host.SystemIdentificationInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            identifierValue = ' unknown',
+            identifierType = (vim.ElementDescription) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               label = 'Asset Tag',
+               summary = 'Asset tag of the system',
+               key = 'AssetTag'
+            }
+         },
+         (vim.host.SystemIdentificationInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            identifierValue = 'Dell System',
+            identifierType = (vim.ElementDescription) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               label = 'OEM specific string',
+               summary = 'OEM specific string',
+               key = 'OemSpecificString'
+            }
+         },
+         (vim.host.SystemIdentificationInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            identifierValue = '5[0000]',
+            identifierType = (vim.ElementDescription) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               label = 'OEM specific string',
+               summary = 'OEM specific string',
+               key = 'OemSpecificString'
+            }
+         },
+         (vim.host.SystemIdentificationInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            identifierValue = '34TK62S',
+            identifierType = (vim.ElementDescription) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               label = 'Service tag',
+               summary = 'Service tag of the system',
+               key = 'ServiceTag'
+            }
+         }
+      ],
+      memorySize = 25756192768L,
+      cpuModel = 'Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz',
+      cpuMhz = 2659,
+      numCpuPkgs = 2,
+      numCpuCores = 12,
+      numCpuThreads = 24,
+      numNics = 4,
+      numHBAs = 9
+   },
+   runtime = (vim.host.RuntimeInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      connectionState = 'connected',
+      powerState = 'poweredOn',
+      standbyMode = 'none',
+      inMaintenanceMode = false,
+      bootTime = 2016-07-24T13:49:18.143Z,
+      healthSystemRuntime = (vim.host.HealthStatusSystem.Runtime) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         systemHealthInfo = (vim.host.SystemHealthInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            numericSensorInfo = (vim.host.NumericSensorInfo) [
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 System Level --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 11900L,
+                  unitModifier = -2,
+                  baseUnits = 'Watts',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1 Voltage --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 25400L,
+                  unitModifier = -2,
+                  baseUnits = 'Volts',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1 Current --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 47L,
+                  unitModifier = -2,
+                  baseUnits = 'Amps',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 FAN 5 RPM --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 360000L,
+                  unitModifier = -2,
+                  baseUnits = 'RPM',
+                  rateUnits = <unset>,
+                  sensorType = 'fan'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 FAN 4 RPM --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 360000L,
+                  unitModifier = -2,
+                  baseUnits = 'RPM',
+                  rateUnits = <unset>,
+                  sensorType = 'fan'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 FAN 3 RPM --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 360000L,
+                  unitModifier = -2,
+                  baseUnits = 'RPM',
+                  rateUnits = <unset>,
+                  sensorType = 'fan'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 FAN 2 RPM --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 360000L,
+                  unitModifier = -2,
+                  baseUnits = 'RPM',
+                  rateUnits = <unset>,
+                  sensorType = 'fan'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 FAN 1 RPM --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 360000L,
+                  unitModifier = -2,
+                  baseUnits = 'RPM',
+                  rateUnits = <unset>,
+                  sensorType = 'fan'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 Ambient Temp --- Normal',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 2200L,
+                  unitModifier = -2,
+                  baseUnits = 'Degrees C',
+                  rateUnits = <unset>,
+                  sensorType = 'temperature'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware Rollup Health State',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Red',
+                     summary = 'Sensor is operating under critical conditions',
+                     key = 'red'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'system'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU1 Level-1 Cache is 196608 B',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU1 Level-2 Cache is 1572864 B',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU1 Level-3 Cache is 12582912 B',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU2 Level-1 Cache is 196608 B',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU2 Level-2 Cache is 1572864 B',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU2 Level-3 Cache is 12582912 B',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Dell Inc. BMC Firmware (node 0) 46:10000 1.50',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Dell Inc. System BIOS 6.4.0 2013-07-23 00:00:00.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware, Inc. VMware ESXi 5.5.0 build-1331820 2013-09-18 00:00:00.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware, Inc. VMware ESXi Alternate Boot Bank 5.5.0 build-1331820',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware misc-cnic-register 1.72.1.v50.1i-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-megaraid-mbox 2.20.5.1-6vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware lsi-msgpt3 00.255.03.03-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-nx-nic 5.0.621-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-fnic 1.5.0.4-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-aacraid 1.1.5.1-9vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware uhci-usb-uhci 1.0-3vmw.550.0.0.1331820 2013-09-19 06:06:38.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-be2net 4.6.100.0v-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-mptspi 4.23.01.00-9vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware lsi-mr3 0.255.03.01-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-sil680 0.4.8-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware esx-tboot 5.5.0-0.0.1331820 2013-09-19 06:06:59.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-bnx2 2.2.3d.v55.2-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-amd 0.3.10-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-serverworks 0.4.3-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-mptsas 4.23.01.00-9vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ipmi-ipmi-devintf 39.1-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-sata-svw 2.3-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-mpt2sas 14.00.00.00-3vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-sata-sil24 1.1-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-aic79xx 3.1-5vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-vmxnet3 1.1.3.0-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-qla4xxx 5.01.03.2-6vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-ixgbe 3.7.13.7.14iov-11vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-qla2xxx 902.k1.1-9vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-atiixp 0.4.6-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware rste 2.0.2.0088-4vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-pdc2027x 1.0-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware mtip32xx-native 3.3.4-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-megaraid2 2.00.4-9vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-tg3 3.123c.v55.5-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware tools-light 5.5.0-0.0.1331820 2013-09-19 06:06:59.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ehci-ehci-hcd 1.0-3vmw.550.0.0.1331820 2013-09-19 06:06:38.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-lpfc820 8.2.3.1-129vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware esx-base 5.5.0-0.0.1331820 2013-09-19 06:06:59.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware lpfc 10.0.100.1-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware esx-xserver 5.5.0-0.0.1331820 2013-09-19 06:06:59.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware block-cciss 3.6.14-10vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-ahci 3.0-17vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware elxnet 10.0.100.0v-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-cmd64x 0.2.5-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-cnic 1.72.52.v55.1-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-adp94xx 1.0.8.12-6vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-megaraid-sas 5.34-9vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-e1000e 1.1.2-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ohci-usb-ohci 1.0-3vmw.550.0.0.1331820 2013-09-19 06:06:38.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-e1000 8.0.3.1-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-hpt3x2n 0.3.4-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ata-pata-via 0.3.3-2vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ima-qla4xxx 2.01.31-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-forcedeth 0.61-2vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-sata-promise 2.12-3vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-sata-nv 3.5-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-ips 7.12.05-4vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-bnx2i 2.72.11.v55.4-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-ata-piix 2.12-9vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-mlx4-core 1.9.7.0-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-mlx4-en 1.9.7.0-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ipmi-ipmi-msghandler 39.1-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware qlnativefc 1.0.12.0-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-bnx2x 1.72.56.v55.2-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware esx-xlibs 5.5.0-0.0.1331820 2013-09-19 06:06:59.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-hpsa 5.5.0-44vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware scsi-bnx2fc 1.72.53.v55.1-1vmw.550.0.0.1331820 2013-09-19 06:06:40.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-enic 1.4.2.15a-1vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware net-igb 2.1.11.1-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware misc-drivers 5.5.0-0.0.1331820 2013-09-19 06:06:38.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware ipmi-ipmi-si-drv 39.1-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware esx-dvfilter-generic-fastpath 5.5.0-0.0.1331820 2013-09-19 06:06:59.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'VMware sata-sata-sil 2.3-4vmw.550.0.0.1331820 2013-09-19 06:06:39.000',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 driver 2.2.3d.v55.2',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 driver 2.2.3d.v55.2',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 driver 2.2.3d.v55.2',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 driver 2.2.3d.v55.2',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 device firmware 5.2.7 bc 5.2.2 NCSI 2.0.8',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 device firmware 5.2.7 bc 5.2.2 NCSI 2.0.8',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 device firmware 5.2.7 bc 5.2.2 NCSI 2.0.8',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'bnx2 device firmware 5.2.7 bc 5.2.2 NCSI 2.0.8',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Software Components'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1: Running/Full Power-Enabled',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 870000L,
+                  unitModifier = -3,
+                  baseUnits = 'Watts',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 2: Off Line-Disabled',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 717000L,
+                  unitModifier = -3,
+                  baseUnits = 'Watts',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 3 ROMB Battery 0: Low - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Battery'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 3 ROMB Battery 0: Failed - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Battery'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Cable SAS B 0: Config Error - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Cable/Interconnect'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Cable SAS A 0: Config Error - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Cable/Interconnect'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 7: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 6: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 5: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 4: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 3: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 2: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 1: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: Drive Fault - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: Predictive Failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: Parity Check In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: In Critical Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: In Failed Array - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: Rebuild In Progress - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Disk Drive Bay 1 Drive 0: Rebuild Aborted - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Storage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 Fan Redundancy 0 - Fully redundant',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'fan'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 Intrusion 0: General Chassis intrusion - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Chassis'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 OS Watchdog 0: Timer expired - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Watchdog'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 OS Watchdog 0: Hard reset - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Watchdog'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 OS Watchdog 0: Power down - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Watchdog'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 OS Watchdog 0: Power cycle - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Watchdog'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 Riser Config 0: Config Error - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Cable/Interconnect'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 2 Status 0: Failure status - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 2 Status 0: Predictive failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 2 Status 0: Power Supply AC lost - Assert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Red',
+                     summary = 'Sensor is operating under critical conditions',
+                     key = 'red'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 2 Status 0: Config Error: Vendor Mismatch - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1 Status 0: Failure status - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1 Status 0: Predictive failure - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1 Status 0: Power Supply AC lost - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Power Supply 1 Status 0: Config Error: Vendor Mismatch - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'power'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 Status 0: IERR - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 Status 0: Thermal Trip - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 Status 0: Configuration Error - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 Status 0: IERR - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 Status 0: Thermal Trip - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 Status 0: Configuration Error - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Processors'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 1.05 V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 1.0 AUX PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 1.0 LOM PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 1.1 V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 8.0 V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 1.8 PLL PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 1.8 PLL  PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 0.9V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 VTT PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 VTT PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 MEM PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 MEM PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 5V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 3.3V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 1.8V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 1.5V PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 0.75 VTT CPU1 PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 0.75 VTT CPU2 PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 2 VCORE PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Processor 1 VCORE PG 0 - State deasserted',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'voltage'
+               },
+               (vim.host.NumericSensorInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'System Board 1 CMOS Battery 0: Failed - Deassert',
+                  healthState = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Sensor is operating under normal conditions',
+                     key = 'green'
+                  },
+                  currentReading = 0L,
+                  unitModifier = 0,
+                  baseUnits = '',
+                  rateUnits = <unset>,
+                  sensorType = 'Battery'
+               }
+            ]
+         },
+         hardwareStatusInfo = (vim.host.HardwareStatusInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            memoryStatusInfo = (vim.host.HardwareStatusInfo.HardwareElementInfo) [
+               (vim.host.HardwareStatusInfo.HardwareElementInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'Memory',
+                  status = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Physical element is functioning as expected',
+                     key = 'Green'
+                  }
+               }
+            ],
+            cpuStatusInfo = (vim.host.HardwareStatusInfo.HardwareElementInfo) [
+               (vim.host.HardwareStatusInfo.HardwareElementInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU1',
+                  status = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Physical element is functioning as expected',
+                     key = 'Green'
+                  }
+               },
+               (vim.host.HardwareStatusInfo.HardwareElementInfo) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  name = 'CPU2',
+                  status = (vim.ElementDescription) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     label = 'Green',
+                     summary = 'Physical element is functioning as expected',
+                     key = 'Green'
+                  }
+               }
+            ],
+            storageStatusInfo = (vim.host.HardwareStatusInfo.StorageStatusInfo) []
+         }
+      },
+      dasHostState = <unset>,
+      tpmPcrValues = (vim.host.TpmDigestInfo) [
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 0
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 1
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 2
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 3
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 4
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 5
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 6
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 7
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 8
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 9
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 10
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 11
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 12
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 13
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 14
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 15
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 16
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 17
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 18
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 19
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 20
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 21
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 22
+         },
+         (vim.host.TpmDigestInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            digestMethod = 'SHA1',
+            digestValue = (byte) [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            objectName = <unset>,
+            pcrNumber = 23
+         }
+      ],
+      vsanRuntimeInfo = <unset>,
+      networkRuntimeInfo = (vim.host.RuntimeInfo.NetworkRuntimeInfo) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         netStackInstanceRuntimeInfo = (vim.host.RuntimeInfo.NetStackInstanceRuntimeInfo) [
+            (vim.host.RuntimeInfo.NetStackInstanceRuntimeInfo) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               netStackInstanceKey = 'defaultTcpipStack',
+               state = 'active',
+               vmknicKeys = (str) [
+                  'vmk0'
+               ],
+               maxNumberOfConnections = 11000,
+               currentIpV6Enabled = true
+            }
+         ],
+         networkResourceRuntime = <unset>
+      },
+      vFlashResourceRuntimeInfo = <unset>,
+      hostMaxVirtualDiskCapacity = <unset>
+   },
+   config = (vim.host.Summary.ConfigSummary) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      name = '192.168.50.41',
+      port = 443,
+      sslThumbprint = '83:88:EF:DE:AE:10:04:3C:88:75:2C:69:86:D5:43:FE:A3:96:9B:B8',
+      product = (vim.AboutInfo) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         name = 'VMware ESXi',
+         fullName = 'VMware ESXi 5.5.0 build-1331820',
+         vendor = 'VMware, Inc.',
+         version = '5.5.0',
+         build = '1331820',
+         localeVersion = 'INTL',
+         localeBuild = '000',
+         osType = 'vmnix-x86',
+         productLineId = 'embeddedEsx',
+         apiType = 'HostAgent',
+         apiVersion = '5.5',
+         instanceUuid = <unset>,
+         licenseProductName = 'VMware ESX Server',
+         licenseProductVersion = '5.0'
+      },
+      vmotionEnabled = false,
+      faultToleranceEnabled = false,
+      featureVersion = (vim.host.FeatureVersionInfo) [
+         (vim.host.FeatureVersionInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'faultTolerance',
+            value = '5.0.0-5.0.0-5.0.0'
+         }
+      ],
+      agentVmDatastore = <unset>,
+      agentVmNetwork = <unset>
+   },
+   quickStats = (vim.host.Summary.QuickStats) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      overallCpuUsage = 153,
+      overallMemoryUsage = 10087,
+      distributedCpuFairness = -1,
+      distributedMemoryFairness = -1,
+      uptime = 350296
+   },
+   overallStatus = 'red',
+   rebootRequired = false,
+   customValue = (vim.CustomFieldsManager.Value) [],
+   managementServerIp = <unset>,
+   maxEVCModeKey = 'intel-westmere',
+   currentEVCModeKey = <unset>,
+   gateway = <unset>
+}
