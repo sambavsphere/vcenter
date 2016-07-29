@@ -1,17 +1,16 @@
 # using Tkinter's Optionmenu() as a combobox
 try:
     # Python2
-    import vcenter_performance_monitoring as vpm
+    from vcenter_performance_monitoring import VcenterTest
     import Tkinter as tk
     import tkMessageBox
-    si = vpm.connectvcenter()
-except ImportError:
-    # Python3
-    import tkinter as tk
+    vpm = VcenterTest()
+except ImportError as err:
+    print err
 def select():
     matrick = var.get()
     vm = var2.get()
-    res=vpm.get_summary(si,vm,matrick)
+    res=vpm.get_summary(vm,matrick)
     tkMessageBox.showinfo( "", res)
     
 root = tk.Tk()
@@ -21,7 +20,7 @@ root.title("Vcenter performance monitoring")
 var = tk.StringVar(root)
 var2 = tk.StringVar(root)
 # initial value
-vms = vpm.get_all_vms(si)
+vms = vpm.get_all_vms()
 var.set('summary')
 var2.set(vms[0])
 metricks = ['summary','powerState','quickStats','overallStatus','guest','config','storage']
