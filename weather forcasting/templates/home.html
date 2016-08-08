@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Weather Forecasting</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}" /> -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Custom Fonts -->
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='bower_components/font-awesome/css/font-awesome.min.css') }}" /> -->
+    <link rel="stylesheet" href="../static/bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="top-container">
+            <form method="POST">
+                <input name="city" type="text" placeholder="Manchester" class="txtInput" value="{{ city }}" />
+                    
+                <input type="submit" name="submit" value="SUBMIT" class="btnSubmit" />
+            </form>
+            <div class="degrees clearfix">
+                <div class="count"><span class="numbers"></span><span class="zero">o</span></div>
+                <div class="fahren"><p>F</p><span class="status"></span><span class="humidity"></span></div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <table class="weather">
+                    
+            </table>
+        </div>
+    </div>
+    <input type="hidden" value="{{ weathers }}" class="weathers">
+
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+</html>
