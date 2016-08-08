@@ -4,7 +4,7 @@ import pyowm
 import pdb
 import json
 def get_weather(city):
-    owm = pyowm.OWM('cfb6b9a4f8e09ec97f2959058f490a4d')  
+    owm = pyowm.OWM('')  
     forecast = owm.daily_forecast(city)
     w1=forecast.get_forecast()
     weathers = w1.get_weathers()[:5]
