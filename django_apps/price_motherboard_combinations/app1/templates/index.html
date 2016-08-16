@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vfds</title>
+</head>
+<body>
+<table>
+<tr><th>CPU</th><th>HARD DISK</th><th>SSD</th><th>RAM</th><th>TOTAL</th></tr>
+{%  for row in result  %}
+<tr>
+	<td>{{ row.cpu }}</td>
+	<td>{{ row.hd }}</td>
+	<td>{{ row.ssd }}</td>
+	<td>{{ row.ram }}</td>
+	<td>{{ row.total }}</td>
+</tr>
+{%endfor%}
+</table>
+</body>
+</html>

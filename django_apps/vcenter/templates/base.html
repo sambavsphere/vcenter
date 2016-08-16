@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block css %}
+    
+    <link rel="stylesheet" href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}" />
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{% static 'bower_components/font-awesome/css/font-awesome.min.css' %}" />
+    
+    <!-- data tables -->
+    <link rel="stylesheet" href="{% static 'bower_components/datatable.min.css' %}" />
+    {% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    {% block navbar%}
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Vcenter Monitoring</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li id="hosts"><a href="/hosts/">Hosts</a></li>
+              <li id='vms'><a href="/vm/">Virtual Machines</a></li>
+              <li id='vms'><a href="/operations/">Operations</a></li>
+            </ul>
+          </div>
+        </nav>
+    {%endblock%}
+    {% block content %}
+
+    {% endblock %}
+    {% block footer %}
+        <section class="divider1">
+        <p>Thanks for visiting my site.</p>
+        <p>All rights reserved</p>
+        </section>
+    {% endblock %}
+    {%block js%}
+        <!-- jQuery -->
+        <script src="{% static 'bower_components/jquery/dist/jquery.min.js'%}"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js'%}"></script>
+
+        <!-- lodash -->
+        <script src="{% static 'bower_components/lodash.js'%}"></script>
+
+        <!-- lodash -->
+        <script src="{% static 'bower_components/d3/d3.min.js'%}"></script>
+
+        <!-- data tables -->
+        <script src="{% static 'bower_components/datatable.min.js'%}"></script>
+
+        <!-- custom js files -->
+        <script src="{% static 'js/cusstom.js'%}"></script>
+
+    {%endblock%}
+</body>
+</html>
