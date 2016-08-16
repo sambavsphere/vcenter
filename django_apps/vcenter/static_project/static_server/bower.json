@@ -1,0 +1,30 @@
+{
+  "name": "startbootstrap-sb-admin-2",
+  "version": "1.0.9",
+  "homepage": "",
+  "authors": [
+    "asda"
+  ],
+  "description": "",
+  "keywords": [
+    "bootstrap",
+    "theme"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "pages",
+    "index.html",
+    "/js"
+  ],
+  "main": [
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "font-awesome": "~4.2.0",
+  }
+}
