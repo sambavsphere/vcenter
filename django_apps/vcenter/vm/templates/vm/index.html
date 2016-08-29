@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{%block content%}
+	<div class="container">
+      <div class="table-responsive data_table">
+		<table id="table_data" class="table-bordered"><thead>
+			<tr>
+				{% for col in columns%}
+					<th> {{ col }}</th>
+				{% endfor %}
+			</tr></thead><tbody>
+			 {% for row in data%}
+				 <tr>
+				 	<td> {{ row.vcenter_date }}</td>
+				 	<td> {{ row.powerstate }}</td>
+				 	<td> {{ row.maxcpuusage }}</td>
+				 	<td> {{ row.vm }}</td>
+				 	<td> {{ row.uncommitted }}</td>
+				 	<td> {{ row.memorysizemb }}</td>
+				 	<td> {{ row.committed }}</td>
+				 	<td> {{ row.consumedoverheadmemory }}</td>
+				 	<td> {{ row.numethernetcards }}</td>
+				 	<td> {{ row.template }}</td>
+				 	<td> {{ row.maxmemoryusage }}</td>
+				 	<td> {{ row.hostmemoryusage }}</td>
+				 	<td> {{ row.privatememory }}</td>
+				 	<td> {{ row.host_ip }}</td>
+				 	<td> {{ row.guestmemoryusage }}</td>
+				 	<td> {{ row.overallcpuusage }}</td>
+				 	<td> {{ row.overallcpudemand }}</td>
+				 	<td> {{ row.numvirtualdisks }}</td>
+				 	<td> {{ row.uuid }}</td>
+				 	<td> {{ row.numcpu }}</td> 
+				</tr>
+			 {% endfor %}
+			 </tbody>
+		 </table>
+		</div>
+	</div>
+
+{%endblock%}

@@ -1,19 +1,33 @@
 {% extends 'base.html' %}
 
 {%block content%}
-<table border="2" >
-	<tr>
-		{% for col in columns%}
-			<th> {{ col }}</th>
-		{% endfor %}
-	</tr>
-	 {% for row in data%}
-		 <tr>
-		 	% for col in columns%}
-				<td> {{ row.col }}</td>
-			{% endfor %}
-		</tr>
-	 {% endfor %}
+	<div class="container">
+      <div class="table-responsive data_table">
+		<table id="table_data" class="table-bordered"><thead>
+			<tr>
+				{% for col in columns%}
+					<th> {{ col }}</th>
+				{% endfor %}
+			</tr></thead><tbody>
+				
+			
+			 {% for row in data%}
+				 <tr >
+				 	<td> {{ row.host }}</td>
+				 	<td> {{ row.numberofvms }}</td>
+				 	<td> {{ row.memorysize }}</td>
+				 	<td> {{ row.numberofdatastores }}</td>
+				 	<td> {{ row.numcpucores }}</td>
+				 	<td> {{ row.overallcpuusage }}</td>
+				 	<td> {{ row.overallstatus }}</td>
+				 	<td> {{ row.numnics }}</td>
+				 	<td> {{ row.hostmaxvirtualdiskcapacity }}</td>
+				 	<td> {{ row.overallmemoryusage }}</td>
+				</tr>
+			 {% endfor %}
+			 </tbody>
+		 </table>
+		</div>
+	</div>
 
- </table>
 {%endblock%}
